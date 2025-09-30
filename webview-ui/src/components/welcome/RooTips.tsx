@@ -11,12 +11,6 @@ const tips = [
 		titleKey: "rooTips.customizableModes.title",
 		descriptionKey: "rooTips.customizableModes.description",
 	},
-	{
-		icon: "codicon-list-tree",
-		href: buildDocLink("features/boomerang-tasks", "tips"),
-		titleKey: "rooTips.boomerangTasks.title",
-		descriptionKey: "rooTips.boomerangTasks.description",
-	},
 ]
 
 const RooTips = () => {

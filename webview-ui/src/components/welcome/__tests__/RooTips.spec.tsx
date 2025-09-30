@@ -38,9 +38,9 @@ describe("RooTips Component", () => {
 			render(<RooTips />)
 		})
 
-		test("renders only the top two tips", () => {
-			// Ensure only two tips are present plus the docs link in the Trans component (3 total links)
-			expect(screen.getAllByRole("link")).toHaveLength(3)
+		test("renders only one tip", () => {
+			// Ensure only one tip is present plus the docs link in the Trans component (2 total links)
+			expect(screen.getAllByRole("link")).toHaveLength(2)
 		})
 	})
 })
