@@ -12,7 +12,6 @@ import {
 	InstallSection,
 	Testimonials,
 } from "@/components/homepage"
-import { EXTERNAL_LINKS } from "@/lib/constants"
 import { ArrowRight } from "lucide-react"
 
 // Invalidate cache when a request comes in, at most once every hour.
@@ -37,7 +36,7 @@ export default async function Home() {
 									with any model.
 								</p>
 							</div>
-							<div className="flex flex-col space-y-3 sm:flex-row sm:space-x-4 sm:space-y-0">
+							<div className="flex justify-center md:justify-start">
 								<Button
 									size="lg"
 									className="w-full hover:bg-gray-200 dark:bg-white dark:text-black sm:w-auto">
@@ -46,18 +45,6 @@ export default async function Home() {
 										target="_blank"
 										className="flex w-full items-center justify-center">
 										Install VS Code Extension
-										<ArrowRight className="ml-2" />
-									</a>
-								</Button>
-								<Button
-									variant="outline"
-									size="lg"
-									className="w-full sm:w-auto bg-white/20 dark:bg-white/10 backdrop-blur-sm border border-black/40 dark:border-white/30 hover:border-blue-400 hover:bg-white/30 dark:hover:bg-white/20 hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all duration-300">
-									<a
-										href={EXTERNAL_LINKS.CLOUD_APP_SIGNUP}
-										target="_blank"
-										className="flex w-full items-center justify-center">
-										Try Cloud
 										<ArrowRight className="ml-2" />
 									</a>
 								</Button>
