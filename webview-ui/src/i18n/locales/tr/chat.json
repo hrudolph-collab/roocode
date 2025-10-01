@@ -367,7 +367,8 @@
 		"status": "İndeks durumu"
 	},
 	"versionIndicator": {
-		"ariaLabel": "Sürüm {{version}} - Sürüm notlarını görüntülemek için tıklayın"
+		"ariaLabel": "Sürüm {{version}} - Sürüm notlarını görüntülemek için tıklayın",
+		"new": "Yeni!"
 	},
 	"rooCloudCTA": {
 		"title": "Roo Code Cloud gelişiyor!",
