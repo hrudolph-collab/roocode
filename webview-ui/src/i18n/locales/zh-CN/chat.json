@@ -367,7 +367,8 @@
 		"status": "索引状态"
 	},
 	"versionIndicator": {
-		"ariaLabel": "版本 {{version}} - 点击查看发布说明"
+		"ariaLabel": "版本 {{version}} - 点击查看发布说明",
+		"new": "新！"
 	},
 	"rooCloudCTA": {
 		"title": "Roo Code Cloud 正在进化！",

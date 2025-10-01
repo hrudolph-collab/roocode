@@ -366,7 +366,8 @@
 		"status": "インデックス状態"
 	},
 	"versionIndicator": {
-		"ariaLabel": "バージョン {{version}} - クリックしてリリースノートを表示"
+		"ariaLabel": "バージョン {{version}} - クリックしてリリースノートを表示",
+		"new": "新着！"
 	},
 	"rooCloudCTA": {
 		"title": "Roo Code Cloud が進化中！",

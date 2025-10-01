@@ -366,7 +366,8 @@
 		"status": "Statut de l'index"
 	},
 	"versionIndicator": {
-		"ariaLabel": "Version {{version}} - Cliquez pour voir les notes de version"
+		"ariaLabel": "Version {{version}} - Cliquez pour voir les notes de version",
+		"new": "Nouveau !"
 	},
 	"rooCloudCTA": {
 		"title": "Roo Code Cloud évolue !",
