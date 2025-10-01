@@ -366,7 +366,8 @@
 		"status": "인덱스 상태"
 	},
 	"versionIndicator": {
-		"ariaLabel": "버전 {{version}} - 릴리스 노트를 보려면 클릭하세요"
+		"ariaLabel": "버전 {{version}} - 릴리스 노트를 보려면 클릭하세요",
+		"new": "새로운!"
 	},
 	"rooCloudCTA": {
 		"title": "Roo Code Cloud가 진화하고 있습니다!",

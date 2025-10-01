@@ -368,7 +368,8 @@
 		"status": "Index status"
 	},
 	"versionIndicator": {
-		"ariaLabel": "Version {{version}} - Click to view release notes"
+		"ariaLabel": "Version {{version}} - Click to view release notes",
+		"new": "New!"
 	},
 	"command": {
 		"triggerDescription": "Trigger the {{name}} command"
